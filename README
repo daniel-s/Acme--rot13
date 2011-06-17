@@ -1,0 +1,32 @@
+Acme::rot13
+
+This packages implements the high security Rot13 encryption algorithm. More info see: https://secure.wikimedia.org/wikipedia/en/wiki/Rot13
+
+USAGE
+
+To use this module in your code, you need to first load the module using:
+
+use Acme::rot13;
+
+Then simply use the function encrypt() passing a string, eg.:
+
+encrypt("a string of text to encrypt");
+
+See also /t/rot13Test.t
+
+
+
+
+Acme::rot13 is Copyright (C) 2011, Daniel Stojanov
+
+LICENSE INFORMATION
+
+This code is free software; you
+can redistribute it and/or modify it under the terms of the
+Artistic License 2.0. For details, see the full text of the
+license in the file LICENSE.
+
+This program is distributed in the hope that it will be
+useful, but it is provided "as is" and without any express
+or implied warranties. For details, see the full text of
+the license in the file LICENSE.
